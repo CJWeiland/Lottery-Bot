@@ -1,1 +1,1 @@
-worker: node bot.js Lottery Bot
+worker: node bot.js
