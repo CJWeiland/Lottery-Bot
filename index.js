@@ -316,4 +316,6 @@ class BotClient(discord.Client):
 
 client = BotClient()
 
+client.run(client.config.get('DEFAULT', 'token'))
+
 bot.login(process.env.token);
